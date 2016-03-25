@@ -35,7 +35,7 @@ SinglyLinkedList.prototype.remove = function(data) {
             }
             this.numberOfValues--;
         } else {
-            previous == current;
+            previous = current;
         }
         current = current.next;
     }
